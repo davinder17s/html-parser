@@ -150,8 +150,8 @@ class Fetcher{
 
 $f = new Fetcher();
 //------------------------- User config start here ----------------------
-$f->base_url = 'http://demo.deviserweb.com/appeo/appeo/';
-$f->save_dir = 'appeo';
+$f->base_url = 'http://host/demo/';
+$f->save_dir = 'demo';
 $f->pages = [
     '/'
 ];
